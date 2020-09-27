@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+
+.header {
+  height: $header-height;
+  width: 100%;
+  background-color: #fff;
+
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 35px;
+  }
+
+  &__navLink {
+    color: $navLink-color;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-right: 70px;
+    position: relative;
+  }
+
+  &__navLink:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__navLink a.active {
+  color: red;
+  //   .header__navLink::after {
+  //     content: ' ';
+  //     width: 10px;
+  //     height: 10px;
+  //     background-color: $title-color;
+  //     border-radius: 50%;
+  //     position: absolute;
+  //     right: 50%;
+  //     top: 100%;
+  //   }
+}
