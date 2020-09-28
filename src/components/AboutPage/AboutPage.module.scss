@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.about {
+  height: 100%;
+
+  &__wrapper {
+    width: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    padding: 5% 0 4% 0;
+    font-weight: bold;
+    font-size: 34px;
+    color: $navLink-color;
+    letter-spacing: -0.68px;
+  }
+
+  &__textBlock {
+  }
+
+  &__text {
+    color: $navLink-color;
+    letter-spacing: 0.4px;
+    padding-bottom: 2%;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}

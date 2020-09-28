@@ -45,3 +45,17 @@
   //     top: 100%;
   //   }
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 100px;
+    &__logo {
+      height: 25px;
+    }
+
+    &__navLink {
+      font-size: 19px;
+      margin-right: 20px;
+    }
+  }
+}

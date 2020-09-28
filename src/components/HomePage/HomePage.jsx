@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './HomePage.module.scss';
-import bg from '../../assets/img/bg.png';
+import Calendar from 'react-calendar';
+import './Calendar.scss';
+import Modal from './Modal/Modal';
 
-const HomePage = () => {
+const HomePage = ({chosenDate, setChosenDate, day, month}) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const onChange = (date) => {
+    setChosenDate(date);
+    setShowModal(true);
+    console.log(chosenDate.toString());
+  };
+
   return (
     <div className={styles.home}>
       <div className={styles.home__mainLeft}>
@@ -16,7 +26,17 @@ const HomePage = () => {
           <br /> This will save you time.
         </p>
       </div>
-      <div className={styles.home__mainRight}>CALENDAR</div>
+      <div className={styles.home__mainRight}>
+        <Calendar value={chosenDate} onChange={onChange} />
+      </div>
+      {showModal && (
+        <Modal
+          setShowModal={setShowModal}
+          month={'September'}
+          day={day}
+          month={month}
+        />
+      )}
     </div>
   );
 };
