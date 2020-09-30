@@ -30,12 +30,7 @@ const HomePage = ({chosenDate, setChosenDate, day, month}) => {
         <Calendar value={chosenDate} onChange={onChange} />
       </div>
       {showModal && (
-        <Modal
-          setShowModal={setShowModal}
-          month={'September'}
-          day={day}
-          month={month}
-        />
+        <Modal setShowModal={setShowModal} day={day} month={month} />
       )}
     </div>
   );
