@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/werdevs/static/css/main.abc3de8b.chunk.css",
+    "main.js": "/werdevs/static/js/main.501052f2.chunk.js",
+    "main.js.map": "/werdevs/static/js/main.501052f2.chunk.js.map",
+    "runtime-main.js": "/werdevs/static/js/runtime-main.70eb1463.js",
+    "runtime-main.js.map": "/werdevs/static/js/runtime-main.70eb1463.js.map",
+    "static/js/2.0167fe79.chunk.js": "/werdevs/static/js/2.0167fe79.chunk.js",
+    "static/js/2.0167fe79.chunk.js.map": "/werdevs/static/js/2.0167fe79.chunk.js.map",
+    "index.html": "/werdevs/index.html",
+    "precache-manifest.e2e470f93ac74a2aadd55b4a270db35c.js": "/werdevs/precache-manifest.e2e470f93ac74a2aadd55b4a270db35c.js",
+    "service-worker.js": "/werdevs/service-worker.js",
+    "static/css/main.abc3de8b.chunk.css.map": "/werdevs/static/css/main.abc3de8b.chunk.css.map",
+    "static/js/2.0167fe79.chunk.js.LICENSE.txt": "/werdevs/static/js/2.0167fe79.chunk.js.LICENSE.txt",
+    "static/media/HomePage.module.scss": "/werdevs/static/media/bg.fb5c0914.png",
+    "static/media/logo.jpg": "/werdevs/static/media/logo.c1b22935.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70eb1463.js",
+    "static/js/2.0167fe79.chunk.js",
+    "static/css/main.abc3de8b.chunk.css",
+    "static/js/main.501052f2.chunk.js"
+  ]
+}
